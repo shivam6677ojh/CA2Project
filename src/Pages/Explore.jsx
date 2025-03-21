@@ -1,9 +1,9 @@
-
 import React, { useState } from "react";
 import Header from "../Component/Header";
 
 const careers = [
     // Technology
+    
     { title: "AI Engineer", category: "Technology", description: "Develop AI models and machine learning solutions.", icon: "🧠" },
     { title: "Cloud Architect", category: "Technology", description: "Design and manage cloud infrastructure solutions.", icon: "☁️" },
     { title: "DevOps Engineer", category: "Technology", description: "Streamline development and operations processes.", icon: "🔄" },
@@ -148,12 +148,12 @@ const Explore = () => {
                         {filteredCareers.map((career, index) => (
                             <div
                                 key={index}
-                                className="group relative bg-white rounded-2xl shadow-md hover:shadow-xl p-6 pt-12 transition-all duration-300 hover:-translate-y-2"
+                                className="p-8 bg-gray-900 bg-opacity-90 backdrop-blur-lg rounded-2xl shadow-lg border border-purple-500 transition-all hover:scale-105 hover:border-purple-400 hover:shadow-purple-500/50"
                             >
                                 <div className="absolute -top-6 left-6 w-12 h-12 rounded-xl bg-purple-500 flex items-center justify-center text-2xl text-white shadow-lg">
                                     {career.icon}
                                 </div>
-                                <h3 className="text-2xl font-bold text-gray-800 mb-2">{career.title}</h3>
+                                <h3 className="text-2xl font-bold text-gray-400 mb-2">{career.title}</h3>
                                 <p className="text-gray-600 mb-4">{career.description}</p>
                                 <div className="flex items-center justify-between">
                                     <span className="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm font-medium">
