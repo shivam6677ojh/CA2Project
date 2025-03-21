@@ -229,7 +229,7 @@ const ContactPage = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-purple-500 via-pink-500 to-yellow-400 flex items-center justify-center p-6 relative overflow-hidden">
+        <div className="min-h-screen bg-gradient-to-br from-gray-700 via-black to-gray-700 flex items-center justify-center p-6 relative overflow-hidden">
             {/* Animated background elements */}
             <div className="absolute -top-20 -right-20 w-96 h-96 bg-purple-400/20 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-yellow-400/20 rounded-full blur-3xl"></div>
@@ -261,7 +261,7 @@ const ContactPage = () => {
                                 </div>
                                 <div>
                                     <p className="font-semibold">Phone</p>
-                                    <p className="opacity-90">+1 234 567 890</p>
+                                    <p className="opacity-90">7704986795</p>
                                 </div>
                             </div>
 
@@ -271,7 +271,7 @@ const ContactPage = () => {
                                 </div>
                                 <div>
                                     <p className="font-semibold">Email</p>
-                                    <p className="opacity-90">support@example.com</p>
+                                    <p className="opacity-90">sojha3022@gmail.com</p>
                                 </div>
                             </div>
 
@@ -281,8 +281,8 @@ const ContactPage = () => {
                                 </div>
                                 <div>
                                     <p className="font-semibold">Office</p>
-                                    <p className="opacity-90">123 Innovation Street</p>
-                                    <p className="opacity-90">Tech City, Digital Nation</p>
+                                    <p className="opacity-90">Lovely Professional University</p>
+                                    <p className="opacity-90">BH-4</p>
                                 </div>
                             </div>
                         </div>

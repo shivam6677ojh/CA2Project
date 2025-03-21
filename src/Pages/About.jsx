@@ -90,7 +90,7 @@ import Header from '../Component/Header';
 
 const About = () => {
     return (
-        <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 font-sans bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500">
+        <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 font-sans bg-gradient-to-r  from-gray-700 via-black to-gray-700">
             <Header />
             {/* Hero Section with Floating Animation */}
             <section className="relative bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white py-24 rounded-2xl mb-20 overflow-hidden">
