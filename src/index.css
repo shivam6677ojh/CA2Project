@@ -15,7 +15,6 @@
   animation: fadeIn 1.5s ease-out forwards;
 }
 
-
 @keyframes slide-in {
   from { transform: translateY(-20px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
@@ -32,4 +31,23 @@
 
 .animate-fade-in {
   animation: fade-in 0.4s ease-out forwards;
+}
+
+.dark {
+  background-color: #111827; /* Dark background */
+  color: white; /* Light text */
+}
+
+/* Optional: Apply dark mode to specific elements */
+.dark nav {
+  background-color: #1f2937;
+}
+
+.dark a {
+  color: white;
+}
+
+.dark button {
+  background-color: #374151;
+  color: white;
 }

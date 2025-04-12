@@ -11,26 +11,87 @@
     }
 }
 
+@keyframes spin-reverse {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+    100% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+    opacity: 0;
+}
+
 .animated-text {
     font-size: 5vw;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    background: linear-gradient(to right, orange, pink, yellow);
+    background: linear-gradient(to right, #9333ea, #6366f1);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
 }
 
 .delay-1 {
-    animation-delay: 1ms;
+    animation-delay: 0.3s;
 }
 
 .delay-2 {
-    animation-delay: 1.3ms;
+    animation-delay: 0.6s;
 }
 
 .delay-3 {
-    animation-delay: 1.7ms;
+    animation-delay: 0.9s;
+}
+
+.animate-spin-reverse {
+    animation: spin-reverse 1.5s linear infinite;
+}
+
+.animate-pulse {
+    animation: pulse 3s ease-in-out infinite;
+}
+
+/* Smooth page transitions */
+.page-transition-enter {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.page-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+}
+
+.page-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.page-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 500ms, transform 500ms;
 }
