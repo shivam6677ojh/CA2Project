@@ -52,6 +52,12 @@ export default function Header() {
                     <Link to="/about" className="text-gray-800 dark:text-gray-200 font-medium transition hover:text-purple-600 dark:hover:text-purple-400 hover:scale-105">
                         About
                     </Link>
+                    <Link to="/exams" className="text-gray-800 dark:text-gray-200 font-medium transition hover:text-purple-600 dark:hover:text-purple-400 hover:scale-105">
+                        Exams
+                    </Link>
+                    <Link to="/universities" className="text-gray-800 dark:text-gray-200 font-medium transition hover:text-purple-600 dark:hover:text-purple-400 hover:scale-105">
+                        Universities
+                    </Link>
                     <Link to="/contact" className="text-gray-800 dark:text-gray-200 font-medium transition hover:text-purple-600 dark:hover:text-purple-400 hover:scale-105">
                         Contact
                     </Link>
@@ -99,6 +105,12 @@ export default function Header() {
                     </Link>
                     <Link to="/about" className="block text-gray-800 dark:text-gray-200 font-medium transition hover:text-purple-600 dark:hover:text-purple-400">
                         About
+                    </Link>
+                    <Link to="/exams" className="block text-gray-800 dark:text-gray-200 font-medium transition hover:text-purple-600 dark:hover:text-purple-400">
+                        Exams
+                    </Link>
+                    <Link to="/universities" className="block text-gray-800 dark:text-gray-200 font-medium transition hover:text-purple-600 dark:hover:text-purple-400">
+                        Universities
                     </Link>
                     <Link to="/contact" className="block text-gray-800 dark:text-gray-200 font-medium transition hover:text-purple-600 dark:hover:text-purple-400">
                         Contact

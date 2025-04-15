@@ -10,6 +10,8 @@ import About from "./Pages/About";
 import Loader from "./Pages/Loader";
 import Assessment from "./Pages/Assessment";
 import CareerResource from "./Pages/CareerResource";
+import Exams from "./Pages/Exams";
+import Universities from "./Pages/Universities";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -45,6 +47,8 @@ function App() {
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="/exams" element={<Exams />} />
+            <Route path="/universities" element={<Universities />} />
           </Routes>
         </div>
       )}
